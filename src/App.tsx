@@ -1,11 +1,9 @@
-import './App.css'
+//import './App.css'
+import Quiz from './components/Quiz'
 
 function App() {
   return (
-    <div>
-      <h1 className='text-center'>Ciaoooooo</h1>
-
-    </div>
+    <Quiz />
   )
 }
 
