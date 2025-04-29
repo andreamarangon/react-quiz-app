@@ -63,7 +63,7 @@ const Quiz = () => {
   return (
     <div className='h-screen bg-[#EBEAEB] flex justify-center items-center p-4'>
       <div className='bg-white max-w-lg w-full p-6 shadow-lg rounded-lg'>
-        <h1 className='text-2xl font-semibold text-[#001e4d] mb-6 text-center'>react-quiz-app</h1>
+        <h1 className='text-2xl font-semibold text-[#001e4d] mb-6 text-center'>React Quiz App</h1>
         <AnimatePresence mode='wait'>
           <motion.div
             key={currentQuestionIndex}
